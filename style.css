@@ -1,0 +1,51 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 67.5%;
+  font-family: "Roboto", sans-serif;
+  color: white;
+}
+
+body {
+  background-color: rgba(88, 208, 146, 0.817);
+}
+
+.contact-form {
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  flex-direction: column;
+
+  margin: 1rem auto;
+  padding: 0.2rem;
+  width: 50%;
+}
+
+.contact-form input {
+  border-radius: 5px;
+  box-shadow: none;
+  margin: 0.2rem;
+}
+
+.contact-form textarea {
+  border-radius: 5px;
+  box-shadow: none;
+  margin: 0.2rem;
+  border: none;
+}
+
+button {
+  width: 75%;
+  margin: 1rem auto;
+  background-color: rgb(70, 124, 171);
+  border: none;
+  border-radius: 1rem;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin: 1rem;
+  text-align: center;
+}
